@@ -1,6 +1,6 @@
 ## BluArmor
 
-### Sample Commands
+#### Sample Commands
 #### To get sample commands:
 help me
 guide me
