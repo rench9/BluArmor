@@ -27,3 +27,6 @@ Share last image
 #### Get distance:
 What distance did i covered<br/>
 How long i am driving
+
+### Download and try
+[![Android 4.4+ v1.](https://i.imgur.com/cqkJfYs.png)](https://github.com/rench9/BluArmor/releases/download/v0.1/bluArmor.apk "XYZreader")

@@ -125,7 +125,7 @@ class LandingActivity : AppCompatActivity(), EasyPermissions.PermissionCallbacks
     }
 
     override fun onResult(result: AIResponse?) {
-        adapter.addItem(ChatAdapter.Feed(result!!.result.resolvedQuery, R.drawable.dp3, true))
+        adapter.addItem(ChatAdapter.Feed(result!!.result.resolvedQuery, R.drawable.shape_circle, true))
         Log.e("onResult", "onResult ${result.result.action}")
         aiResponseHandler.processAction(result)
     }
@@ -205,7 +205,7 @@ class LandingActivity : AppCompatActivity(), EasyPermissions.PermissionCallbacks
 
     override fun speak(msg: String) {
         tt.speak(msg, TextToSpeech.QUEUE_FLUSH, null, null)
-        adapter.addItem(ChatAdapter.Feed(msg, R.drawable.dp3, false))
+        adapter.addItem(ChatAdapter.Feed(msg, R.drawable.shape_circle, false))
     }
 
 }
